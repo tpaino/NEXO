@@ -59,7 +59,7 @@
       filter: drop-shadow(0 12px 22px rgba(63, 72, 86, 0.08));
     }
     .person { display: flex; align-items: center; gap: 12px; }
-    .avatar { display: grid; width: 42px; height: 42px; flex: 0 0 auto; place-items: center; border-radius: 50%; color: #647d9f; background: linear-gradient(145deg, rgba(205,220,241,.85), rgba(255,255,255,.7)); }
+    .avatar { display: grid; width: 42px; height: 42px; flex: 0 0 auto; place-items: center; border-radius: 50%; color: #647d9f; background: linear-gradient(145deg, rgba(205,220,241,.85), rgba(255,255,255,.25)); }
     .person-name { font-size: 14px; font-weight: 600; letter-spacing: -.02em; }
     .subtle { margin-top: 3px; color: var(--muted); font-size: 11px; }
     .section-label { margin: 1px 2px -8px; color: var(--muted); font-size: 10px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
@@ -79,7 +79,7 @@
     main { position: relative; flex: 1; min-width: 0; overflow: hidden; border-radius: 28px; }
     #did-agent-container { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; background: radial-gradient(ellipse at 50% 35%, #fff, #f2f4f8 78%); }
     #did-agent-container > div, #did-agent-container iframe { width: 100% !important; height: 100% !important; border: 0 !important; border-radius: inherit !important; }
-    .connection { position: absolute; z-index: 2; top: 16px; right: 16px; display: flex; align-items: center; gap: 8px; max-width: calc(100% - 32px); padding: 10px 14px; border-radius: 999px; color: var(--ink); background: rgba(255,255,255,.72); border: 1px solid rgba(255,255,255,.8); box-shadow: 0 8px 24px rgba(49,58,76,.06); }
+    .connection { position: absolute; z-index: 2; top: 16px; right: 16px; display: flex; align-items: center; gap: 8px; max-width: calc(100% - 32px); padding: 10px 14px; border-radius: 999px; color: var(--ink); font-size: 12px; font-weight: 600; letter-spacing: -.02em; background: rgba(255,255,255,.68); border: 1px solid rgba(255,255,255,.8); box-shadow: 0 8px 25px rgba(49, 58, 76, .08); }
     .connection-dot { width: 7px; height: 7px; flex: 0 0 auto; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 3px rgba(114,169,138,.13); }
     @media (max-width: 760px) {
       body { padding: 10px; }
@@ -102,7 +102,7 @@
   <div class="app">
     <aside class="sidebar glass" aria-label="Resumen de salud">
       <header class="brand">
-        <img src="Gemini_Generated_Image_60f53f60f53f60f5.png" alt="NEXO logo" class="brand-logo" />
+        <img src="LogoNexo.png" alt="NEXO logo" class="brand-logo" />
       </header>
 
       <section class="person" aria-label="Perfil">
